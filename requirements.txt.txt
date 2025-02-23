@@ -1,1 +1,7 @@
 flask
+requests
+matplotlib
+pandas
+numpy
+io
+base64
