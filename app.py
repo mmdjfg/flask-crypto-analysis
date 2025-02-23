@@ -80,7 +80,7 @@ def get_crypto() :
 def home() :
     latest_price , latest_rsi ,latest_ma5 , latest_ma10 , signal , chart_url = get_crypto()
 
-    return render_template ("index.html",
+    return render_template('index.html',
                             price = latest_price,
                             rsi = latest_rsi,
                             ma5 = latest_ma5,
